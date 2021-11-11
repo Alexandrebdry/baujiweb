@@ -17,12 +17,6 @@ class UserAddFormType extends AbstractType
             ->add('birthdate')
             ->add('password')
             ->add('email')
-            ->add('role')
-            ->add('created_at')
-            ->add('updated_at')
-            ->add('isActivate')
-            ->add('structure')
-            ->add('commandes')
         ;
     }
 

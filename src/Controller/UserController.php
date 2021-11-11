@@ -31,7 +31,7 @@ class UserController extends AbstractController
         if($form->isSubmitted() && $form->isValid()){
 
         }
-        return $this->render('user/add.html.twig', [
+        return $this->renderForm('user/add.html.twig', [
             'form' => $form,
         ]);
     }
